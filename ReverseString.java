@@ -25,7 +25,7 @@ public class ReverseString {
     }
 
     private static String reverse(String input) {
-        StringBuilder stringBuilder = new StringBuilder(input);
-        return stringBuilder.reverse().toString();
+        StringBuilder inputLine = new StringBuilder(input);
+        return inputLine.reverse().toString();
     }
 }
