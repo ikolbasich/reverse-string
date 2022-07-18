@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ReverseString {
 
     public static void main(String[] args) {
-        System.out.print("Please input string -> ");
+        System.out.print("Input string -> ");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
 
