@@ -7,7 +7,7 @@ public class ReverseString {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
 
-        reverse(1000, input);
+        reverse(100, input);
         reverse(10_000, input);
         reverse(100_000, input);
 
